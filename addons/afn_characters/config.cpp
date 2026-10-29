@@ -1313,8 +1313,8 @@ class CfgGroups {
 
                 class Unit5 {
                     side = 1;
-                    vehicle = "AFN_TDF_AutomaticRifleman";
-                    rank = "CORPORAL";
+                    vehicle = "AFN_TDF_AntiTank";
+                    rank = "PRIVATE";
                     position[] = {-10, -10, 0};
                 };
 
@@ -1372,8 +1372,8 @@ class CfgGroups {
 
                 class Unit5 {
                     side = 1;
-                    vehicle = "AFN_LF_AutomaticRifleman";
-                    rank = "CORPORAL";
+                    vehicle = "AFN_LF_AntiTank";
+                    rank = "PRIVATE";
                     position[] = {-10, -10, 0};
                 };
 

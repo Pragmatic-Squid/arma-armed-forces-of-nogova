@@ -1313,7 +1313,7 @@ class CfgGroups {
 
                 class Unit5 {
                     side = 1;
-                    vehicle = "AFN_TDF_AntiTank";
+                    vehicle = "AFN_TDF_Marksman";
                     rank = "PRIVATE";
                     position[] = {-10, -10, 0};
                 };
@@ -1372,7 +1372,7 @@ class CfgGroups {
 
                 class Unit5 {
                     side = 1;
-                    vehicle = "AFN_LF_AntiTank";
+                    vehicle = "AFN_LF_Marksman";
                     rank = "PRIVATE";
                     position[] = {-10, -10, 0};
                 };

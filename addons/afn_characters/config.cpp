@@ -33,10 +33,10 @@ class CfgPatches
             "AFN_LF_Marksman",
             "AFN_LF_Marksman_SVD",
             "AFN_LF_Crewman",
-            "AFN_SOF_Rifleman",
+            "AFN_SOF_Operator",
             "AFN_SOF_DemolitionsSpecialist",
-            "AFN_SOF_Rifleman_M4A1SD",
-            "AFN_SOF_Rifleman_AKS74UN",
+            "AFN_SOF_Operator_M4A1SD",
+            "AFN_SOF_Operator_AKS74UN",
             "AFN_SOF_Grenadier",
             "AFN_SOF_Medic",
             "AFN_SOF_AutomaticRifleman",
@@ -850,7 +850,7 @@ class CfgVehicles
     // Special Operations Forces
     // -----------------------------------------------------------------------
 
-    class AFN_SOF_Rifleman : AFN_SoldierBase
+    class AFN_SOF_Operator : AFN_SoldierBase
     {
         scope = public;
         vehicleClass = "AFN_SpecialOperationForces";
@@ -897,12 +897,12 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_DemolitionsSpecialist : AFN_SOF_Rifleman
+    class AFN_SOF_DemolitionsSpecialist : AFN_SOF_Operator
     {
         displayName = "AFN SOF Demolitions Specialist";
     };
 
-    class AFN_SOF_Rifleman_M4A1SD : AFN_SOF_Rifleman
+    class AFN_SOF_Operator_M4A1SD : AFN_SOF_Operator
     {
         displayName = "AFN SOF Operator (M4A1 SD)";
 
@@ -927,7 +927,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_Rifleman_AKS74UN : AFN_SOF_Rifleman
+    class AFN_SOF_Operator_AKS74UN : AFN_SOF_Operator
     {
         displayName = "AFN SOF Operator (AKS-74UN)";
 
@@ -952,7 +952,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_Grenadier : AFN_SOF_Rifleman {
+    class AFN_SOF_Grenadier : AFN_SOF_Operator {
         displayName = "AFN SOF Grenadier";
         nameSound = "grenadier";
 
@@ -984,7 +984,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_Medic : AFN_SOF_Rifleman {
+    class AFN_SOF_Medic : AFN_SOF_Operator {
         displayName = "AFN SOF Medic";
         nameSound = "medic2";
 
@@ -1011,7 +1011,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_AutomaticRifleman: AFN_SOF_Rifleman
+    class AFN_SOF_AutomaticRifleman: AFN_SOF_Operator
     {
         displayName = "AFN SOF Automatic Rifleman";
         nameSound = "machineGunner";
@@ -1056,7 +1056,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_AntiTank: AFN_SOF_Rifleman
+    class AFN_SOF_AntiTank: AFN_SOF_Operator
     {
         displayName = "AFN SOF AT Soldier";
         nameSound = "missileSoldier";
@@ -1093,7 +1093,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_TeamLeader : AFN_SOF_Rifleman {
+    class AFN_SOF_TeamLeader : AFN_SOF_Operator {
         displayName = "AFN SOF Team Leader";
 
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
@@ -1138,7 +1138,7 @@ class CfgVehicles
         enableGPS = true;
     };
 
-    class AFN_SOF_Sniper : AFN_SOF_Rifleman {
+    class AFN_SOF_Sniper : AFN_SOF_Operator {
         displayName = "AFN SOF Sniper";
         nameSound="sniper";
 
@@ -1178,7 +1178,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_Marksman : AFN_SOF_Rifleman
+    class AFN_SOF_Marksman : AFN_SOF_Operator
     {
         displayName = "AFN SOF Marksman";
 
@@ -1240,7 +1240,7 @@ class CfgVehicles
         };
     };
 
-    class AFN_SOF_Crewman : AFN_SOF_Rifleman {
+    class AFN_SOF_Crewman : AFN_SOF_Operator {
         displayName = "AFN SOF Crew";
         nameSound = "crew";
 

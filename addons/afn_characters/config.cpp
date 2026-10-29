@@ -16,6 +16,7 @@ class CfgPatches
             "AFN_TDF_AutomaticRifleman",
             "AFN_TDF_AntiTank",
             "AFN_TDF_TeamLeader",
+            "AFN_TDF_SquadLeader",
             "AFN_TDF_Crewman",
             "AFN_TDF_Sniper",
             "AFN_TDF_Marksman",

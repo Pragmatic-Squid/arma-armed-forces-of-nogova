@@ -22,6 +22,7 @@ class CfgPatches
             "AFN_TDF_Marksman",
             "AFN_TDF_Marksman_SVD",
             "AFN_LF_Rifleman",
+            "AFN_LF_CombatEngineer",
             "AFN_LF_Grenadier",
             "AFN_LF_Medic",
             "AFN_LF_AutomaticRifleman",
@@ -33,6 +34,7 @@ class CfgPatches
             "AFN_LF_Marksman_SVD",
             "AFN_LF_Crewman",
             "AFN_SOF_Rifleman",
+            "AFN_SOF_DemolitionsSpecialist",
             "AFN_SOF_Rifleman_M4A1SD",
             "AFN_SOF_Rifleman_AKS74UN",
             "AFN_SOF_Grenadier",
@@ -543,6 +545,11 @@ class CfgVehicles
         };
     };
 
+    class AFN_LF_CombatEngineer : AFN_LF_Rifleman
+    {
+        displayName = "AFN LF Combat Engineer";
+    };
+
     class AFN_LF_Grenadier : AFN_LF_Rifleman {
         displayName = "AFN LF Grenadier";
         nameSound = "grenadier";
@@ -888,6 +895,11 @@ class CfgVehicles
                 "ca\characters\data\us_soldier_b_body_wound2.rvmat"
             };
         };
+    };
+
+    class AFN_SOF_DemolitionsSpecialist : AFN_SOF_Rifleman
+    {
+        displayName = "AFN SOF Demolitions Specialist";
     };
 
     class AFN_SOF_Rifleman_M4A1SD : AFN_SOF_Rifleman

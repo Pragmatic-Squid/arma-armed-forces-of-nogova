@@ -26,6 +26,7 @@ class CfgPatches
             "AFN_LF_AutomaticRifleman",
             "AFN_LF_AntiTank",
             "AFN_LF_TeamLeader",
+            "AFN_LF_SquadLeader",
             "AFN_LF_Sniper",
             "AFN_LF_Marksman",
             "AFN_LF_Marksman_SVD",
@@ -689,6 +690,16 @@ class CfgVehicles
             AK_MAGAZINES_6,
             LF_DEFAULT_GRENADES
         };
+    };
+
+    class AFN_LF_SquadLeader : AFN_LF_TeamLeader {
+        scope = public;
+        displayName = "AFN LF Squad Leader";
+
+        Picture = "\\Ca\\characters\\data\\Ico\\i_sleader_CA.paa";
+        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
+
+        enableGPS = true;
     };
 
     class AFN_LF_Sniper : AFN_LF_Rifleman {

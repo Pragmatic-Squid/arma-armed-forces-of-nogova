@@ -1271,16 +1271,17 @@ class CfgGroups {
         class AFN_TD {
             name = "AFN Territorial Defense";
 
-            class AFN_TDF_RifleSquad {
-                name = "TD RifleSquad";
+            class AFN_TDF_InfantrySquad {
+                name = "TDF Infantry Squad (7)";
 
                 class Unit0 {
                     side = 1;
-                    vehicle = "AFN_TDF_TeamLeader";
+                    vehicle = "AFN_TDF_SquadLeader";
                     rank = "SERGEANT";
                     position[] = {0, 0, 0};
                 };
 
+                // Group A
                 class Unit1 {
                     side = 1;
                     vehicle = "AFN_TDF_Rifleman";
@@ -1290,30 +1291,97 @@ class CfgGroups {
 
                 class Unit2 {
                     side = 1;
-                    vehicle = "AFN_TDF_Grenadier";
-                    rank = "PRIVATE";
-                    position[] = {-5, -5, 0};
-                };
-
-                class Unit3 {
-                    side = 1;
                     vehicle = "AFN_TDF_AutomaticRifleman";
                     rank = "CORPORAL";
                     position[] = {10, -10, 0};
                 };
 
-                class Unit4 {
-                    side = 1;
-                    vehicle = "AFN_TDF_Rifleman";
-                    rank = "PRIVATE";
-                    position[] = {-10, -10, 0};
-                };
-
-                class Unit5 {
+                class Unit3 {
                     side = 1;
                     vehicle = "AFN_TDF_AntiTank";
                     rank = "PRIVATE";
                     position[] = {15, -15, 0};
+                };
+
+                // Group B
+                class Unit4 {
+                    side = 1;
+                    vehicle = "AFN_TDF_Grenadier";
+                    rank = "PRIVATE";
+                    position[] = {-5, -5, 0};
+                };
+
+                class Unit5 {
+                    side = 1;
+                    vehicle = "AFN_TDF_AutomaticRifleman";
+                    rank = "CORPORAL";
+                    position[] = {-10, -10, 0};
+                };
+
+                class Unit6 {
+                    side = 1;
+                    vehicle = "AFN_TDF_Medic";
+                    rank = "PRIVATE";
+                    position[] = {-15, -15, 0};
+                };
+            };
+        };
+
+        class AFN_LF {
+            name = "AFN Land Forces";
+
+            class AFN_LF_InfantrySquad {
+                name = "LF Infantry Squad (7)";
+
+                class Unit0 {
+                    side = 1;
+                    vehicle = "AFN_LF_SquadLeader";
+                    rank = "SERGEANT";
+                    position[] = {0, 0, 0};
+                };
+
+                // Group A
+                class Unit1 {
+                    side = 1;
+                    vehicle = "AFN_LF_Rifleman";
+                    rank = "PRIVATE";
+                    position[] = {5, -5, 0};
+                };
+
+                class Unit2 {
+                    side = 1;
+                    vehicle = "AFN_LF_AutomaticRifleman";
+                    rank = "CORPORAL";
+                    position[] = {10, -10, 0};
+                };
+
+                class Unit3 {
+                    side = 1;
+                    vehicle = "AFN_LF_AntiTank";
+                    rank = "PRIVATE";
+                    position[] = {15, -15, 0};
+                };
+
+                // Group B
+                class Unit4 {
+                    side = 1;
+                    vehicle = "AFN_LF_Grenadier";
+                    rank = "PRIVATE";
+                    position[] = {-5, -5, 0};
+                };
+
+                class Unit5 {
+                    side = 1;
+                    vehicle = "AFN_LF_AutomaticRifleman";
+                    rank = "CORPORAL";
+                    position[] = {-10, -10, 0};
+                };
+
+                class Unit6 {
+                    side = 1;
+                    vehicle = "AFN_LF_Medic";
+                    rank = "PRIVATE";
+                    position[] = {-15, -15, 0};
                 };
             };
         };

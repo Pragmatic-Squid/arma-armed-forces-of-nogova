@@ -1292,7 +1292,7 @@ class CfgGroups {
                 class Unit2 {
                     side = 1;
                     vehicle = "AFN_TDF_AutomaticRifleman";
-                    rank = "CORPORAL";
+                    rank = "PRIVATE";
                     position[] = {10, -10, 0};
                 };
 
@@ -1351,7 +1351,7 @@ class CfgGroups {
                 class Unit2 {
                     side = 1;
                     vehicle = "AFN_LF_AutomaticRifleman";
-                    rank = "CORPORAL";
+                    rank = "PRIVATE";
                     position[] = {10, -10, 0};
                 };
 

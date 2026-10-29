@@ -693,7 +693,6 @@ class CfgVehicles
     };
 
     class AFN_LF_SquadLeader : AFN_LF_TeamLeader {
-        scope = public;
         displayName = "AFN LF Squad Leader";
 
         Picture = "\\Ca\\characters\\data\\Ico\\i_sleader_CA.paa";

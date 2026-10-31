@@ -8,8 +8,7 @@ class CfgPatches
 {
     class AFN_Characters
     {
-        units[] =
-        {
+        units[] = {
             "AFN_TDF_Rifleman",
             "AFN_TDF_Medic",
             "AFN_TDF_Grenadier",
@@ -53,8 +52,7 @@ class CfgPatches
 
         requiredVersion = 1.14;
 
-        requiredAddons[] =
-        {
+        requiredAddons[] = {
             "CACharacters"
         };
     };
@@ -66,8 +64,7 @@ class CfgPatches
 
 class CfgFactionClasses
 {
-    class AFN
-    {
+    class AFN {
         displayName = "Armed Forces of Nogova";
         side = West;
     };
@@ -100,8 +97,7 @@ class CfgVehicles
 {
     class SoldierWB;
 
-    class AFN_SoldierBase : SoldierWB
-    {
+    class AFN_SoldierBase : SoldierWB {
         scope = protected;
         side = West;
         faction = "AFN";
@@ -111,8 +107,7 @@ class CfgVehicles
     // Territorial Defense Forces
     // -----------------------------------------------------------------------
 
-    class AFN_TDF_Rifleman : AFN_SoldierBase
-    {
+    class AFN_TDF_Rifleman : AFN_SoldierBase {
         scope = public;
         vehicleClass = "AFN_TerritorialDefenseForces";
         displayName = "AFN TDF Rifleman";
@@ -144,8 +139,7 @@ class CfgVehicles
             TDF_DEFAULT_GRENADES
         };
 
-        class Wounds
-        {
+        class Wounds {
             tex[]={};
             mat[]={
                 "ca\characters\data\us_rukavy_hhl.rvmat",
@@ -194,7 +188,7 @@ class CfgVehicles
         displayName = "AFN TDF Medic";
         nameSound = "medic2";
 
-        model = "\edf_characters\edf_soldier_medic.p3d";
+        model = "\edf_characters\afn_tdf_medic.p3d";
         picture = "\Ca\characters\data\Ico\i_Med_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_medyk_CA.paa";
 
@@ -203,8 +197,7 @@ class CfgVehicles
         attendant = true;
         weaponSlots = WeaponSlotPrimary + WeaponSlotSecondary + 8 * WeaponSlotItem + 2 * WeaponSlotBinocular + WeaponSlotHandGun + 4*WeaponSlotHandGunItem;
 
-        class Wounds
-        {
+        class Wounds {
             tex[]={};
             mat[]={
                 "ca\characters\data\us_hhl.rvmat",
@@ -506,7 +499,7 @@ class CfgVehicles
 
         picture="\Ca\characters\data\Ico\i_null_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-        model = "\edf_characters\edf_rf_soldier_b.p3d";
+        model = "\edf_characters\afn_lf_rifleman.p3d";
 
         accuracy = 0.7;
         cost = 40000;
@@ -554,7 +547,7 @@ class CfgVehicles
         displayName = "AFN LF Grenadier";
         nameSound = "grenadier";
 
-        model = "\edf_characters\edf_rf_soldier_g.p3d";
+        model = "\edf_characters\afn_lf_grenadier.p3d";
 
         cost=60000;
         accuracy = 1000; // never recognized
@@ -586,11 +579,10 @@ class CfgVehicles
         displayName = "AFN LF Medic";
         nameSound = "medic2";
 
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
         picture = "\Ca\characters\data\Ico\i_Med_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_medyk_CA.paa";
 
-        accuracy=1000; // never recognized
+        accuracy = 1000; // never recognized
         cost = 60000;
         attendant = true;
         weaponSlots = WeaponSlotPrimary + WeaponSlotSecondary + 8 * WeaponSlotItem + 2 * WeaponSlotBinocular + WeaponSlotHandGun + 4*WeaponSlotHandGunItem;
@@ -600,8 +592,6 @@ class CfgVehicles
     {
         displayName = "AFN LF Automatic Rifleman";
         nameSound = "machineGunner";
-
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
 
         accuracy = 1.5;
         cost = 60000;
@@ -632,8 +622,6 @@ class CfgVehicles
     {
         displayName = "AFN LF AT Soldier";
         nameSound = "missileSoldier";
-
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
 
         accuracy=1.5;
         cost=150000;
@@ -670,7 +658,6 @@ class CfgVehicles
 
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
 
         accuracy=2.0;
         cost=600000;
@@ -704,8 +691,8 @@ class CfgVehicles
     class AFN_LF_SquadLeader : AFN_LF_TeamLeader {
         displayName = "AFN LF Squad Leader";
 
-        Picture = "\\Ca\\characters\\data\\Ico\\i_sleader_CA.paa";
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
+        Picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
+        model = "\edf_characters\edf_rf_soldier_b.p3d";
 
         enableGPS = true;
     };
@@ -716,7 +703,7 @@ class CfgVehicles
 
         Picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
+        model = "\edf_characters\edf_rf_soldier_b.p3d";
 
         accuracy = 3.5;
         nightVision = true;
@@ -754,7 +741,7 @@ class CfgVehicles
     {
         displayName = "AFN LF Marksman";
 
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
+        model = "\edf_characters\edf_rf_soldier_b.p3d";
 
         weapons[] = {
             "M16A4_ACG",
@@ -816,7 +803,7 @@ class CfgVehicles
         displayName = "AFN LF Crew";
         nameSound = "crew";
 
-        model = "\\edf_characters\\edf_rf_soldier_b.p3d";
+        model = "\edf_characters\edf_rf_soldier_b.p3d";
 
         accuracy = 1000; // never recognize
 
@@ -846,6 +833,7 @@ class CfgVehicles
             SMOKE_SHELL_GREEN_2
         };
     };
+	
     // -----------------------------------------------------------------------
     // Special Operations Forces
     // -----------------------------------------------------------------------
@@ -956,8 +944,6 @@ class CfgVehicles
         displayName = "AFN SOF Grenadier";
         nameSound = "grenadier";
 
-        model = "\edf_characters\edf_tdf_soldier_g.p3d";
-
         cost=60000;
         accuracy = 1000; // never recognized
 
@@ -988,7 +974,6 @@ class CfgVehicles
         displayName = "AFN SOF Medic";
         nameSound = "medic2";
 
-        model = "\edf_characters\edf_soldier_medic.p3d";
         picture = "\Ca\characters\data\Ico\i_Med_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_medyk_CA.paa";
 
@@ -1015,8 +1000,6 @@ class CfgVehicles
     {
         displayName = "AFN SOF Automatic Rifleman";
         nameSound = "machineGunner";
-
-        model = "\edf_characters\edf_tdf_soldier_ar.p3d";
 
         accuracy = 1.5;
         cost = 60000;
@@ -1061,8 +1044,6 @@ class CfgVehicles
         displayName = "AFN SOF AT Soldier";
         nameSound = "missileSoldier";
 
-        model = "\edf_characters\edf_tdf_soldier_at.p3d";
-
         accuracy=1.5;
         cost=150000;
         nightVision=true;
@@ -1098,8 +1079,7 @@ class CfgVehicles
 
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
-        model = "\edf_characters\edf_tdf_soldier.p3d";
-
+		
         accuracy=2.0;
         cost=600000;
         nightVision=true;
@@ -1132,8 +1112,7 @@ class CfgVehicles
     class AFN_SOF_SquadLeader : AFN_SOF_TeamLeader {
         displayName = "AFN SOF Squad Leader";
 
-        Picture = "\\Ca\\characters\\data\\Ico\\i_sleader_CA.paa";
-        model = "\\edf_characters\\edf_tdf_soldier.p3d";
+        Picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
 
         enableGPS = true;
     };
@@ -1144,7 +1123,6 @@ class CfgVehicles
 
         Picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-        model = "\edf_characters\edf_tdf_soldier.p3d";
 
         accuracy = 3.5;
         nightVision = true;
@@ -1181,8 +1159,6 @@ class CfgVehicles
     class AFN_SOF_Marksman : AFN_SOF_Operator
     {
         displayName = "AFN SOF Marksman";
-
-        model = "\edf_characters\edf_tdf_soldier.p3d";
 
         weapons[] = {
             "aks74pso",
@@ -1243,8 +1219,6 @@ class CfgVehicles
     class AFN_SOF_Crewman : AFN_SOF_Operator {
         displayName = "AFN SOF Crew";
         nameSound = "crew";
-
-        model = "\edf_characters\edf_tdf_soldier.p3d";
 
         accuracy = 1000; // never recognize
 

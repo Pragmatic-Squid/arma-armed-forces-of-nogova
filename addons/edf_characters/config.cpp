@@ -494,6 +494,7 @@ class CfgVehicles
 
     class AFN_LF_Rifleman : AFN_SoldierBase
     {
+        scope = public;
         vehicleClass = "AFN_LandForces";
         displayName = "AFN LF Rifleman";
 

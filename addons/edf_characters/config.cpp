@@ -101,6 +101,18 @@ class CfgVehicles
         scope = protected;
         side = West;
         faction = "AFN";
+		
+		class Wounds {
+            tex[]={};
+            mat[]={
+                "ca\characters\data\us_rukavy_hhl.rvmat",
+                "ca\characters\data\us_rukavy_hhl_wound1.rvmat",
+                "ca\characters\data\us_rukavy_hhl_wound2.rvmat",
+                "ca\characters\data\us_soldier_b_body.rvmat",
+                "ca\characters\data\us_soldier_b_body_wound1.rvmat",
+                "ca\characters\data\us_soldier_b_body_wound2.rvmat"
+            };
+        };
     };
 
     // -----------------------------------------------------------------------
@@ -126,7 +138,7 @@ class CfgVehicles
 
         magazines[] = {
             AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -136,19 +148,7 @@ class CfgVehicles
 
         respawnMagazines[] = {
             AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
-        };
-
-        class Wounds {
-            tex[]={};
-            mat[]={
-                "ca\characters\data\us_rukavy_hhl.rvmat",
-                "ca\characters\data\us_rukavy_hhl_wound1.rvmat",
-                "ca\characters\data\us_rukavy_hhl_wound2.rvmat",
-                "ca\characters\data\us_soldier_b_body.rvmat",
-                "ca\characters\data\us_soldier_b_body_wound1.rvmat",
-                "ca\characters\data\us_soldier_b_body_wound2.rvmat"
-            };
+            DEFAULT_GRENADES
         };
     };
 
@@ -169,7 +169,7 @@ class CfgVehicles
         magazines[] = {
             AK_MAGAZINES_6,
             GP25_GRENADES_8,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -180,7 +180,7 @@ class CfgVehicles
         respawnMagazines[] = {
             AK_MAGAZINES_6,
             GP25_GRENADES_8,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -276,7 +276,7 @@ class CfgVehicles
         magazines[] = {
             AK_MAGAZINES_6,
             RPG7_ROUNDS_3,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -288,7 +288,7 @@ class CfgVehicles
         respawnMagazines[] = {
             AK_MAGAZINES_6,
             RPG7_ROUNDS_3,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -313,7 +313,7 @@ class CfgVehicles
 
         magazines[] = {
             AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -325,7 +325,7 @@ class CfgVehicles
 
         respawnMagazines[] = {
             AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 	
@@ -407,7 +407,7 @@ class CfgVehicles
         magazines[] = {
             AK_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -420,7 +420,7 @@ class CfgVehicles
         respawnMagazines[] = {
             AK_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -511,7 +511,7 @@ class CfgVehicles
 
         magazines[] = {
             AK_MAGAZINES_6,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -521,20 +521,7 @@ class CfgVehicles
 
         respawnMagazines[] = {
             AK_MAGAZINES_6,
-            LF_DEFAULT_GRENADES
-        };
-
-        class Wounds
-        {
-            tex[]={};
-            mat[]={
-                "ca\characters\data\us_rukavy_hhl.rvmat",
-                "ca\characters\data\us_rukavy_hhl_wound1.rvmat",
-                "ca\characters\data\us_rukavy_hhl_wound2.rvmat",
-                "ca\characters\data\us_soldier_b_body.rvmat",
-                "ca\characters\data\us_soldier_b_body_wound1.rvmat",
-                "ca\characters\data\us_soldier_b_body_wound2.rvmat"
-            };
+            DEFAULT_GRENADES
         };
     };
 
@@ -560,7 +547,7 @@ class CfgVehicles
         magazines[] = {
             AK_MAGAZINES_6,
             GP25_GRENADES_8,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -571,7 +558,7 @@ class CfgVehicles
         respawnMagazines[] = {
             AK_MAGAZINES_6,
             GP25_GRENADES_8,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -637,7 +624,7 @@ class CfgVehicles
         magazines[] = {
             AK_MAGAZINES_6,
             RPG7_ROUNDS_3,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -649,7 +636,7 @@ class CfgVehicles
         respawnMagazines[] = {
             AK_MAGAZINES_6,
             RPG7_ROUNDS_3,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -672,7 +659,7 @@ class CfgVehicles
 
         magazines[] = {
             AK_MAGAZINES_6,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -684,7 +671,7 @@ class CfgVehicles
 
         respawnMagazines[] = {
             AK_MAGAZINES_6,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -749,7 +736,7 @@ class CfgVehicles
         magazines[] = {
             STANAG_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -762,7 +749,7 @@ class CfgVehicles
         respawnMagazines[] = {
             STANAG_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
-            LF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
@@ -832,16 +819,15 @@ class CfgVehicles
     // Special Operations Forces
     // -----------------------------------------------------------------------
 
-    class AFN_SOF_Operator : AFN_SoldierBase
-    {
+    class AFN_SOF_Operator : AFN_SoldierBase {
         scope = public;
         vehicleClass = "AFN_SpecialOperationForces";
         displayName = "AFN SOF Operator (M4A1 Aimpoint)";
 		nameSound = "blackOp";
 
+		model = "\edf_characters\afn_sof_operator.p3d";
         picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_komandos_CA.paa";
-        model = "\edf_characters\afn_sof_operator.p3d";
 
 		camouflage = 0.7;
 		threat[] = {1, 0.5, 0.1};		
@@ -860,7 +846,7 @@ class CfgVehicles
 
         magazines[] = {
             STANAG_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -870,30 +856,11 @@ class CfgVehicles
 
         respawnMagazines[] = {
             STANAG_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
-        };
-
-        class Wounds
-        {
-            tex[]={};
-            mat[]={
-                "ca\characters\data\us_rukavy_hhl.rvmat",
-                "ca\characters\data\us_rukavy_hhl_wound1.rvmat",
-                "ca\characters\data\us_rukavy_hhl_wound2.rvmat",
-                "ca\characters\data\us_soldier_b_body.rvmat",
-                "ca\characters\data\us_soldier_b_body_wound1.rvmat",
-                "ca\characters\data\us_soldier_b_body_wound2.rvmat"
-            };
+            DEFAULT_GRENADES
         };
     };
 
-    class AFN_SOF_DemolitionsSpecialist : AFN_SOF_Operator
-    {
-        displayName = "AFN SOF Demolitions Specialist";
-    };
-
-    class AFN_SOF_Operator_M4A1SD : AFN_SOF_Operator
-    {
+    class AFN_SOF_Operator_M4A1SD : AFN_SOF_Operator {
         displayName = "AFN SOF Operator (M4A1 SD)";
 
         weapons[] = {
@@ -903,7 +870,7 @@ class CfgVehicles
 
         magazines[] = {
             STANAG_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
 
         respawnWeapons[] = {
@@ -913,110 +880,33 @@ class CfgVehicles
 
         respawnMagazines[] = {
             STANAG_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES
         };
     };
 
-    class AFN_SOF_Operator_AKS74UN : AFN_SOF_Operator
-    {
-        displayName = "AFN SOF Operator (AKS-74UN)";
-
-        weapons[] = {
-            "AKS74UN",
-            DefaultEquip
-        };
-
-        magazines[] = {
-            AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
-        };
-
-        respawnWeapons[] = {
-            "AKS74UN",
-            DefaultEquip
-        };
-
-        respawnMagazines[] = {
-            AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
-        };
-    };
-
-    class AFN_SOF_TeamLeader : AFN_SOF_Operator {
-        displayName = "AFN SOF Team Leader";
-
-        Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
-        Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
+	class AFN_SOF_DemolitionsSpecialist : AFN_SOF_Operator {
+        displayName = "AFN SOF Demolitions Specialist";
 		
-        accuracy=2.0;
-        cost=600000;
-        nightVision=true;
-
-        weapons[] = {
-            "AK74",
-            "Binocular",
-            "NVGoggles",
+		weapons[] = {
+            "AKS74UN",
             DefaultEquip
         };
 
         magazines[] = {
             AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES,
+			PIPEBOMBS_3
         };
 
         respawnWeapons[] = {
-            "AK74",
-            "Binocular",
-            "NVGoggles",
+            "AKS74UN",
             DefaultEquip
         };
 
         respawnMagazines[] = {
             AK_MAGAZINES_6,
-            TDF_DEFAULT_GRENADES
-        };
-    };
-
-    class AFN_SOF_SquadLeader : AFN_SOF_TeamLeader {
-        displayName = "AFN SOF Squad Leader";
-    };
-
-    class AFN_SOF_Sniper : AFN_SOF_Operator {
-        displayName = "AFN SOF Sniper";
-        nameSound="sniper";
-
-        Picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
-        Icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-
-        accuracy = 3.5;
-        nightVision = true;
-        cost = 250000;
-        sensitivity = 2;
-        camouflage = 0.6;
-        threat[] = {1, 0.1, 0.1};
-
-        weapons[] = {
-            "M24",
-            "Makarov",
-            "Binocular",
-            DefaultEquip
-        };
-
-        magazines[] = {
-            M24_MAGAZINES_6,
-            MAKAROV_MAGAZINES_4
-        };
-
-        respawnWeapons[]={
-            "M24",
-            "Makarov",
-            "Binocular",
-            DefaultEquip
-        };
-
-        respawnMagazines[] = {
-            M24_MAGAZINES_6,
-            MAKAROV_MAGAZINES_4
+            DEFAULT_GRENADES,
+			PIPEBOMBS_3
         };
     };
 
@@ -1025,29 +915,33 @@ class CfgVehicles
         displayName = "AFN SOF Marksman";
 
         weapons[] = {
-            "aks74pso",
+            "M4SPR",
             "MakarovSD",
             "NVGoggles",
+			"LaserDesignator",
             DefaultEquip
         };
 
         magazines[] = {
             AK_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES,
+			"Laserbatteries"
         };
 
         respawnWeapons[] = {
             "aks74pso",
             "MakarovSD",
             "NVGoggles",
+			"LaserDesignator",
             DefaultEquip
         };
 
         respawnMagazines[] = {
             AK_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
-            TDF_DEFAULT_GRENADES
+            DEFAULT_GRENADES,
+			"Laserbatteries"
         };
     };
 };

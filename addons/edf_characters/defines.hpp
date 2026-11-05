@@ -12,13 +12,8 @@
 #define public      2
 
 #define DefaultEquip "Throw","Put"
-#define TDF_DEFAULT_GRENADES \
-	"HandGrenade", \
-	"HandGrenade", \
-	"SmokeShell", \
-	"SmokeShellRed"
 
-#define LF_DEFAULT_GRENADES \
+#define DEFAULT_GRENADES \
 	"HandGrenadeTimed", \
 	"HandGrenadeTimed", \
 	"SmokeShell", \
@@ -27,6 +22,11 @@
 #define HANDGRENADE_2 \
 	"HandGrenade", \
 	"HandGrenade"
+	
+#define PIPEBOMBS_3 \
+	"PipeBomb", \
+	"PipeBomb", \
+	"PipeBomb"
 
 #define HANDGRENADE_TIMED_2 \
 	"HandGrenadeTimed", \
@@ -47,6 +47,14 @@
 	"30Rnd_556x45_Stanag", \
 	"30Rnd_556x45_Stanag", \
 	"30Rnd_556x45_Stanag"
+	
+#define STANAG_MAGAZINES_6 \
+	"20Rnd_556x45_Stanag", \
+	"20Rnd_556x45_Stanag", \
+	"20Rnd_556x45_Stanag", \
+	"20Rnd_556x45_Stanag", \
+	"20Rnd_556x45_Stanag", \
+	"20Rnd_556x45_Stanag"
 
 #define GP25_GRENADES_8 \
 	"1Rnd_HE_GP25", \

@@ -124,9 +124,9 @@ class CfgVehicles
         vehicleClass = "AFN_TerritorialDefenseForces";
         displayName = "AFN TDF Rifleman";
 
+        model = "\edf_characters\edf_tdf_soldier_b.p3d";
         picture="\Ca\characters\data\Ico\i_null_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-        model = "\edf_characters\edf_tdf_soldier_b.p3d";
 
         accuracy = 0.7;
         cost = 40000;
@@ -296,9 +296,9 @@ class CfgVehicles
         displayName = "AFN TDF Team Leader";
 		nameSound = "officer";
 
+        model = "\edf_characters\afn_tdf_teamleader.p3d";
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
-        model = "\edf_characters\afn_tdf_teamleader.p3d";
 
         accuracy = 2.0;
         cost = 500000;
@@ -332,8 +332,8 @@ class CfgVehicles
 	class AFN_TDF_SquadLeader : AFN_TDF_TeamLeader {
         displayName = "AFN TDF Squad Leader";
 
-        Picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
         model = "\edf_characters\afn_tdf_squadleader.p3d";
+        Picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
 
 		enableGPS = true;
 		

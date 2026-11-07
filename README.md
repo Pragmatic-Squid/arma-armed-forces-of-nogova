@@ -25,43 +25,53 @@ The AFN will feature:
 The mod is being developed for vanilla ArmA: Armed Assault, with ACE compatibility planned for a later stage.
 
 ## Roadmap
+
 ### Core
-**Territorial Defense Forces**
-Models, textures and Config entries:
-- [x] Rifleman 
-- [x] Automatic Rifleman 
+
+#### Territorial Defense Forces
+
+Models, textures and config entries:
+
+- [x] Rifleman
+- [x] Automatic Rifleman
 - [x] Grenadier
 - [x] Medic
-- [x] Teamleader 
-- [x] Squadleader 
+- [x] Team Leader
+- [x] Squad Leader
 - [x] AT Soldier
-- [x] Marksman 
+- [x] Marksman
 - [x] Sniper
 - [x] Crewman
 
-**Land Forces**
+#### Land Forces
+
 Models, textures and config entries:
+
 - [x] Rifleman
 - [x] Automatic Rifleman
 - [x] Grenadier
 - [ ] Medic
-- [ ] Combat Engineer 
-- [ ] Teamleader 
-- [ ] Squadleader 
+- [ ] Combat Engineer
+- [ ] Team Leader
+- [ ] Squad Leader
 - [ ] AT Soldier
-- [x] Marksman 
+- [x] Marksman
 - [x] Sniper
 - [ ] Crewman
 
-**Special Operation Forces**
+#### Special Operations Forces
+
+Models, textures and config entries:
+
 - [x] Operator
 - [ ] Marksman
 - [ ] Sniper
-- [ ] Demolitions Specialist 
+- [ ] Demolitions Specialist
 
-## Core Extensions
+### Core Extensions
+
 - [ ] AK models equipped with CQB optics
-- [x] Script for using using Weapons with hybrid optics (both CQB and range scope) and switching between them
+- [x] Script for using weapons with hybrid optics (both CQB and range scope) and switching between them
 - [ ] Weapon model with hybrid optics
 
 ## License and Credits

@@ -10,7 +10,7 @@ This project is still in a very early stage of development and is subject to sig
 
 Originally, the mod was intended to introduce the Everon Defense Force (EDF). However, after some consideration, I decided that Nogova would be a better setting for the Eastern European-inspired military I have in mind.
 
-Most assets still carry the EDF naming convention and will be renamed gradually as development progresses.
+A lot of assets still carry the EDF naming convention and will be renamed gradually as development progresses.
 
 ## Features
 
@@ -18,82 +18,51 @@ The AFN will feature:
 
 - Three distinct military components:
   - Territorial Defense Forces (TDF): Consisting primarily of reservists.
-  - Regular Forces (RF): A modernized force equipped with more advanced weapons and gear, with a preference for Western equipment.
+  - Land Forces (LF): A modernized force equipped with more advanced weapons and gear, with a preference for Western equipment.
   - Special Operations Forces (SOF): Specializing in special operations (duh), equipped with the most advanced gear and relying heavily on Western weapons.
 - Each component will have its own camouflage pattern and equipment.
 
 The mod is being developed for vanilla ArmA: Armed Assault, with ACE compatibility planned for a later stage.
 
 ## Roadmap
-
-### The Road So Far
-
-#### Core
-
+### Core
 **Territorial Defense Forces**
+Models, textures and Config entries:
+- [x] Rifleman 
+- [x] Automatic Rifleman 
+- [x] Grenadier
+- [x] Medic
+- [x] Teamleader 
+- [x] Squadleader 
+- [x] AT Soldier
+- [x] Marksman 
+- [x] Sniper
+- [x] Crewman
 
-Equipment concept:
-- Uniform with a unique camouflage pattern
-- Helmets, vests, and pouches in Ranger Green
-- Rifle: AK-74
-- Crew rifle: AKS-74U
-- Machine gun: PK
-- Marksman rifle: AKS-74 + PSO-1
-- Sniper rifle: SVD
+**Land Forces**
+Models, textures and config entries:
+- [x] Rifleman
+- [x] Automatic Rifleman
+- [x] Grenadier
+- [ ] Medic
+- [ ] Combat Engineer 
+- [ ] Teamleader 
+- [ ] Squadleader 
+- [ ] AT Soldier
+- [x] Marksman 
+- [x] Sniper
+- [ ] Crewman
 
-Completed:
-- Camouflage texture
-- Units with their own models:
-  - Rifleman
-  - Automatic Rifleman
-  - Grenadier
-- Units using the default TDF model:
-  - Medic
-  - Marksman
-  - Sniper
-  - Team Leader
-  - Crew
+**Special Operation Forces**
+- [x] Operator
+- [ ] Marksman
+- [ ] Sniper
+- [ ] Demolitions Specialist 
 
-**Regular Forces**
-
-Equipment concept:
-- Uniforms, helmets, and vests with a unique camouflage pattern
-- Pouches in Ranger Green
-- Rifle: AK-74
-- Crew rifle: AKS-74U
-- Machine gun: M249
-- Marksman rifle: M16 + ACOG
-- Sniper rifle: SVD
-
-Completed:
-- Camouflage texture
-- Units with their own models:
-  - Rifleman
-
-**Special Operations Forces**
-
-Equipment concept:
-- Uniforms, helmets, and vests with a unique camouflage pattern
-- Pouches in Ranger Green
-- Camouflaged weapons
-- Rifle: M4A1 + Aimpoint
-- Crew rifle: M4A1
-- Machine gun: M249
-- Marksman rifles: M16 + ACOG and SR-25
-- Sniper rifle: M24
-
-### The Road Ahead
-
-**Core**
-- Unique, fully textured models for all unit classes across all components
-- Custom AFN face classes
-
-**Core Extensions**
-- AK models equipped with CQB optics
-
-**ACE Addon**
-- Compatibility with ACE systems
-- Additional units and weapons
+## Core Extensions
+- [ ] AK models equipped with CQB optics
+- [x] Script for using using Weapons with hybrid optics (both CQB and range scope) and switching between them
+- [ ] Weapon model with hybrid optics
 
 ## License and Credits
 

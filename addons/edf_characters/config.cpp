@@ -19,7 +19,6 @@ class CfgPatches
             "AFN_TDF_Crewman",
             "AFN_TDF_Sniper",
             "AFN_TDF_Marksman",
-            "AFN_TDF_Marksman_SVD",
             "AFN_LF_Rifleman",
             "AFN_LF_CombatEngineer",
             "AFN_LF_Grenadier",
@@ -30,22 +29,14 @@ class CfgPatches
             "AFN_LF_SquadLeader",
             "AFN_LF_Sniper",
             "AFN_LF_Marksman",
-            "AFN_LF_Marksman_SVD",
             "AFN_LF_Crewman",
             "AFN_SOF_Operator",
-            "AFN_SOF_DemolitionsSpecialist",
             "AFN_SOF_Operator_M4A1SD",
-            "AFN_SOF_Operator_AKS74UN",
-            "AFN_SOF_Grenadier",
-            "AFN_SOF_Medic",
-            "AFN_SOF_AutomaticRifleman",
-            "AFN_SOF_AntiTank",
+			"AFN_SOF_DemolitionsSpecialist",
             "AFN_SOF_TeamLeader",
             "AFN_SOF_SquadLeader",
             "AFN_SOF_Sniper",
             "AFN_SOF_Marksman",
-            "AFN_SOF_Marksman_SVD",
-            "AFN_SOF_Crewman"
         };
 
         weapons[] = {};
@@ -125,8 +116,8 @@ class CfgVehicles
         displayName = "AFN TDF Rifleman";
 
         model = "\edf_characters\edf_tdf_soldier_b.p3d";
-        picture="\Ca\characters\data\Ico\i_null_CA.paa";
-        Icon= "\Ca\characters\data\map_ico\i_wojak_CA.paa";
+        picture ="\Ca\characters\data\Ico\i_null_CA.paa";
+        icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
 
         accuracy = 0.7;
         cost = 40000;
@@ -333,7 +324,7 @@ class CfgVehicles
         displayName = "AFN TDF Squad Leader";
 
         model = "\edf_characters\afn_tdf_squadleader.p3d";
-        Picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
+        picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
 
 		enableGPS = true;
 		
@@ -355,8 +346,8 @@ class CfgVehicles
         displayName = "AFN TDF Sniper";
         nameSound="sniper";
 
-        Picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
-        Icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
+        picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
+        icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
         model = "\edf_characters\edf_tdf_soldier.p3d";
 
         accuracy = 3.5;
@@ -395,8 +386,6 @@ class CfgVehicles
     {
         displayName = "AFN TDF Marksman";
 
-        model = "\edf_characters\edf_tdf_soldier.p3d";
-
         weapons[] = {
             "aks74pso",
             "MakarovSD",
@@ -421,35 +410,6 @@ class CfgVehicles
             AK_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
             DEFAULT_GRENADES
-        };
-    };
-
-    class AFN_TDF_Marksman_SVD : AFN_TDF_Marksman
-    {
-        displayName = "AFN TDF Marksman (SVD)";
-
-        weapons[] = {
-            "SVD",
-            "Makarov",
-            "NVGoggles",
-            DefaultEquip
-        };
-
-        magazines[] = {
-            SVD_MAGAZINES_6,
-            MAKAROV_MAGAZINES_4
-        };
-
-        respawnWeapons[] = {
-            "SVD",
-            "Makarov",
-            "NVGoggles",
-            DefaultEquip
-        };
-
-        respawnMagazines[] = {
-            SVD_MAGAZINES_6,
-            MAKAROV_MAGAZINES_4
         };
     };
 
@@ -457,7 +417,7 @@ class CfgVehicles
         displayName = "AFN TDF Crew";
         nameSound = "crew";
 
-        model = "\edf_characters\edf_tdf_soldier.p3d";
+        model = "\edf_characters\afn_tdf_crew.p3d";
 
         accuracy = 1000; // never recognize
 
@@ -580,6 +540,8 @@ class CfgVehicles
     {
         displayName = "AFN LF Automatic Rifleman";
         nameSound = "machineGunner";
+		
+		model = "\edf_characters\afn_lf_automatic_rifleman.p3d";
 
         accuracy = 1.5;
         cost = 60000;
@@ -610,6 +572,8 @@ class CfgVehicles
     {
         displayName = "AFN LF AT Soldier";
         nameSound = "missileSoldier";
+		
+		model = "\edf_characters\afn_lf_anti_tank.p3d";
 
         accuracy=1.5;
         cost=150000;
@@ -689,8 +653,8 @@ class CfgVehicles
         nameSound="sniper";
 
 		model = "\edf_characters\afn_lf_sniper.p3d";
-        Picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
-        Icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
+        picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
+        icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
 		
         accuracy = 3.5;
         nightVision = true;
@@ -752,35 +716,6 @@ class CfgVehicles
             STANAG_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
             DEFAULT_GRENADES
-        };
-    };
-
-    class AFN_LF_Marksman_SVD : AFN_LF_Marksman
-    {
-        displayName = "AFN LF Marksman (SVD)";
-
-        weapons[] = {
-            "SVD",
-            "Makarov",
-            "NVGoggles",
-            DefaultEquip
-        };
-
-        magazines[] = {
-            SVD_MAGAZINES_6,
-            MAKAROV_MAGAZINES_4
-        };
-
-        respawnWeapons[] = {
-            "SVD",
-            "Makarov",
-            "NVGoggles",
-            DefaultEquip
-        };
-
-        respawnMagazines[] = {
-            SVD_MAGAZINES_6,
-            MAKAROV_MAGAZINES_4
         };
     };
 

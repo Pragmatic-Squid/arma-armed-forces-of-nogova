@@ -688,6 +688,7 @@ class CfgVehicles
         displayName = "AFN LF Sniper";
         nameSound="sniper";
 
+		model = "\edf_characters\afn_lf_sniper.p3d";
         Picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
 		

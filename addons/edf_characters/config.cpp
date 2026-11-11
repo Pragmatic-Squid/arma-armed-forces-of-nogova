@@ -573,7 +573,7 @@ class CfgVehicles
         displayName = "AFN LF AT Soldier";
         nameSound = "missileSoldier";
 		
-		model = "\edf_characters\afn_lf_anti_tank.p3d";
+		model = "\edf_characters\afn_lf_at_soldier.p3d";
 
         accuracy=1.5;
         cost=150000;
@@ -608,6 +608,7 @@ class CfgVehicles
     class AFN_LF_TeamLeader : AFN_LF_Rifleman {
         displayName = "AFN LF Team Leader";
 
+		model = "\edf_characters\afn_lf_teamleader.p3d";
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
 
@@ -723,6 +724,8 @@ class CfgVehicles
         displayName = "AFN LF Crew";
         nameSound = "crew";
 
+		model = "\edf_characters\afn_lf_crew.p3d";
+		
         accuracy = 1000; // never recognize
 
         weapons[] = {

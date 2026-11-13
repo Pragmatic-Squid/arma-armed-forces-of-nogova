@@ -781,6 +781,8 @@ class CfgVehicles
 
         weapons[] = {
             "M4AIM",
+            "NVGoggles",
+			"Binocular",
             DefaultEquip
         };
 
@@ -791,6 +793,8 @@ class CfgVehicles
 
         respawnWeapons[] = {
             "M4AIM",
+			"NVGoggles",
+			"Binocular",
             DefaultEquip
         };
 
@@ -805,6 +809,8 @@ class CfgVehicles
 
         weapons[] = {
             "M4A1SD",
+			"NVGoggles",
+			"Binocular",
             DefaultEquip
         };
 
@@ -815,6 +821,8 @@ class CfgVehicles
 
         respawnWeapons[] = {
             "M4A1SD",
+			"NVGoggles",
+			"Binocular",
             DefaultEquip
         };
 
@@ -829,6 +837,8 @@ class CfgVehicles
 		
 		weapons[] = {
             "AKS74UN",
+			"NVGoggles",
+			"Binocular",
             DefaultEquip
         };
 
@@ -840,6 +850,8 @@ class CfgVehicles
 
         respawnWeapons[] = {
             "AKS74UN",
+			"NVGoggles",
+			"Binocular",
             DefaultEquip
         };
 

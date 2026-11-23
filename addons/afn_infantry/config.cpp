@@ -9,27 +9,27 @@ class CfgPatches
     class AFN_Characters
     {
         units[] = {
-            //"AFN_TDF_Rifleman",
-            //"AFN_TDF_Medic",
-            //"AFN_TDF_Grenadier",
-            //"AFN_TDF_AutomaticRifleman",
-            //"AFN_TDF_AntiTank",
-            //"AFN_TDF_TeamLeader",
-            //"AFN_TDF_SquadLeader",
-            //"AFN_TDF_Crewman",
-            //"AFN_TDF_Sniper",
-            //"AFN_TDF_Marksman",
-            //"AFN_LF_Rifleman",
-            //"AFN_LF_CombatEngineer",
-            //"AFN_LF_Grenadier",
-            //"AFN_LF_Medic",
-            //"AFN_LF_AutomaticRifleman",
-            //"AFN_LF_AntiTank",
-            //"AFN_LF_TeamLeader",
-            //"AFN_LF_SquadLeader",
-            //"AFN_LF_Sniper",
-            //"AFN_LF_Marksman",
-            //"AFN_LF_Crewman",
+            "AFN_TDF_Rifleman",
+            "AFN_TDF_Medic",
+            "AFN_TDF_Grenadier",
+            "AFN_TDF_AutomaticRifleman",
+            "AFN_TDF_AntiTank",
+            "AFN_TDF_TeamLeader",
+            "AFN_TDF_SquadLeader",
+            "AFN_TDF_Crewman",
+            "AFN_TDF_Sniper",
+            "AFN_TDF_Marksman",
+            "AFN_LF_Rifleman",
+            "AFN_LF_CombatEngineer",
+            "AFN_LF_Grenadier",
+            "AFN_LF_Medic",
+            "AFN_LF_AutomaticRifleman",
+            "AFN_LF_AntiTank",
+            "AFN_LF_TeamLeader",
+            "AFN_LF_SquadLeader",
+            "AFN_LF_Sniper",
+            "AFN_LF_Marksman",
+            "AFN_LF_Crewman",
             "AFN_SOF_Operator",
             "AFN_SOF_Operator_M4A1SD",
 			"AFN_SOF_DemolitionsSpecialist",
@@ -115,7 +115,7 @@ class CfgVehicles
         vehicleClass = "AFN_TerritorialDefenseForces";
         displayName = "AFN TDF Rifleman";
 
-        model = "\edf_characters\edf_tdf_soldier_b.p3d";
+        model = "\afn_infantry\afn_tdf_rifleman.p3d";
         picture ="\Ca\characters\data\Ico\i_null_CA.paa";
         icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
 
@@ -147,7 +147,7 @@ class CfgVehicles
         displayName = "AFN TDF Grenadier";
         nameSound = "grenadier";
 
-        model = "\edf_characters\edf_tdf_soldier_g.p3d";
+        model = "\afn_infantry\afn_tdf_grenadier.p3d";
 
         cost=60000;
         accuracy = 1000; // never recognized
@@ -179,7 +179,7 @@ class CfgVehicles
         displayName = "AFN TDF Medic";
         nameSound = "medic2";
 
-        model = "\edf_characters\afn_tdf_medic.p3d";
+        model = "\afn_infantry\afn_tdf_medic.p3d";
         picture = "\Ca\characters\data\Ico\i_Med_CA.paa";
         Icon = "\Ca\characters\data\map_ico\i_medyk_CA.paa";
 
@@ -206,7 +206,7 @@ class CfgVehicles
         displayName = "AFN TDF Automatic Rifleman";
         nameSound = "machineGunner";
 
-        model = "\edf_characters\edf_tdf_soldier_ar.p3d";
+        model = "\afn_infantry\afn_tdf_automatic_rifleman.p3d";
 
         accuracy = 1.5;
         cost = 60000;
@@ -251,7 +251,7 @@ class CfgVehicles
         displayName = "AFN TDF AT Soldier";
         nameSound = "missileSoldier";
 
-        model = "\edf_characters\edf_tdf_soldier_at.p3d";
+        model = "\afn_infantry\afn_tdf_at_soldier.p3d";
 
         accuracy=1.5;
         cost=150000;
@@ -287,7 +287,7 @@ class CfgVehicles
         displayName = "AFN TDF Team Leader";
 		nameSound = "officer";
 
-        model = "\edf_characters\afn_tdf_teamleader.p3d";
+        model = "\afn_infantry\afn_tdf_teamleader.p3d";
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
 
@@ -323,7 +323,6 @@ class CfgVehicles
 	class AFN_TDF_SquadLeader : AFN_TDF_TeamLeader {
         displayName = "AFN TDF Squad Leader";
 
-        model = "\edf_characters\afn_tdf_squadleader.p3d";
         picture = "\Ca\characters\data\Ico\i_sleader_CA.paa";
 
 		enableGPS = true;
@@ -348,7 +347,6 @@ class CfgVehicles
 
         picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
         icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-        model = "\afn_infantry\afn_tdf_soldier.p3d";
 
         accuracy = 3.5;
         nightVision = true;
@@ -417,7 +415,7 @@ class CfgVehicles
         displayName = "AFN TDF Crew";
         nameSound = "crew";
 
-        model = "\edf_characters\afn_tdf_crew.p3d";
+        model = "\afn_infantry\afn_tdf_crew.p3d";
 
         accuracy = 1000; // never recognize
 
@@ -460,7 +458,7 @@ class CfgVehicles
 
         picture="\Ca\characters\data\Ico\i_null_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_wojak_CA.paa";
-        model = "\edf_characters\afn_lf_rifleman.p3d";
+        model = "\afn_infantry\afn_lf_rifleman.p3d";
 
         accuracy = 0.7;
         cost = 40000;
@@ -488,6 +486,8 @@ class CfgVehicles
 
     class AFN_LF_CombatEngineer : AFN_LF_Rifleman
     {
+		// TODO
+		scope = 0;
         displayName = "AFN LF Combat Engineer";
     };
 
@@ -495,7 +495,7 @@ class CfgVehicles
         displayName = "AFN LF Grenadier";
         nameSound = "grenadier";
 
-        model = "\edf_characters\afn_lf_grenadier.p3d";
+        model = "\afn_infantry\afn_lf_grenadier.p3d";
 
         cost=60000;
         accuracy = 1000; // never recognized
@@ -541,7 +541,7 @@ class CfgVehicles
         displayName = "AFN LF Automatic Rifleman";
         nameSound = "machineGunner";
 		
-		model = "\edf_characters\afn_lf_automatic_rifleman.p3d";
+		model = "\afn_infantry\afn_lf_automatic_rifleman.p3d";
 
         accuracy = 1.5;
         cost = 60000;
@@ -573,7 +573,7 @@ class CfgVehicles
         displayName = "AFN LF AT Soldier";
         nameSound = "missileSoldier";
 		
-		model = "\edf_characters\afn_lf_at_soldier.p3d";
+		model = "\afn_infantry\afn_lf_at_soldier.p3d";
 
         accuracy=1.5;
         cost=150000;
@@ -608,7 +608,7 @@ class CfgVehicles
     class AFN_LF_TeamLeader : AFN_LF_Rifleman {
         displayName = "AFN LF Team Leader";
 
-		model = "\edf_characters\afn_lf_teamleader.p3d";
+		model = "\afn_infantry\afn_lf_teamleader.p3d";
         Picture= "\Ca\characters\data\Ico\i_tleader_CA.paa";
         Icon= "\Ca\characters\data\map_ico\i_lider_CA.paa";
 
@@ -653,7 +653,7 @@ class CfgVehicles
         displayName = "AFN LF Sniper";
         nameSound="sniper";
 
-		model = "\edf_characters\afn_lf_sniper.p3d";
+		model = "\afn_infantry\afn_lf_sniper.p3d";
         picture = "\Ca\characters\data\Ico\i_SF_CA.paa";
         icon = "\Ca\characters\data\map_ico\i_wojak_CA.paa";
 		
@@ -724,7 +724,7 @@ class CfgVehicles
         displayName = "AFN LF Crew";
         nameSound = "crew";
 
-		model = "\edf_characters\afn_lf_crew.p3d";
+		model = "\afn_infantry\afn_lf_crew.p3d";
 		
         accuracy = 1000; // never recognize
 
@@ -785,7 +785,7 @@ class CfgVehicles
         };
 
         magazines[] = {
-            STANAG_MAGAZINES_6,
+            STANAG_30RND_MAGAZINES_6,
             DEFAULT_GRENADES
         };
 
@@ -795,7 +795,7 @@ class CfgVehicles
         };
 
         respawnMagazines[] = {
-            STANAG_MAGAZINES_6,
+            STANAG_30RND_MAGAZINES_6,
             DEFAULT_GRENADES
         };
     };
@@ -809,7 +809,7 @@ class CfgVehicles
         };
 
         magazines[] = {
-            STANAG_MAGAZINES_6,
+            STANAG_30RND_MAGAZINES_6,
             DEFAULT_GRENADES
         };
 
@@ -819,7 +819,7 @@ class CfgVehicles
         };
 
         respawnMagazines[] = {
-            STANAG_MAGAZINES_6,
+            STANAG_30RND_MAGAZINES_6,
             DEFAULT_GRENADES
         };
     };
@@ -863,14 +863,14 @@ class CfgVehicles
         };
 
         magazines[] = {
-            AK_MAGAZINES_6,
+            STANAG_20RND_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
             DEFAULT_GRENADES,
 			"Laserbatteries"
         };
 
         respawnWeapons[] = {
-            "aks74pso",
+            "M4SPR",
             "MakarovSD",
             "NVGoggles",
 			"LaserDesignator",
@@ -878,7 +878,7 @@ class CfgVehicles
         };
 
         respawnMagazines[] = {
-            AK_MAGAZINES_6,
+            STANAG_20RND_MAGAZINES_6,
             MAKAROV_SD_MAGAZINES_4,
             DEFAULT_GRENADES,
 			"Laserbatteries"
